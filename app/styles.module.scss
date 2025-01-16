@@ -106,3 +106,19 @@
   font-weight: 600;
   border: none;
 }
+
+.disabled {
+  background: #f0f0f0;
+  img {
+    opacity: 0.3;
+  }
+  .blockTitle {
+    opacity: 0.3;
+  }
+  .blockDescription {
+    opacity: 0.3;
+  }
+  .grouppedCheckbox {
+    opacity: 0.3;
+  }
+}

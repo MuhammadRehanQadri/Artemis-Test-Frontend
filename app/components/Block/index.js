@@ -1,4 +1,5 @@
 import styles from "./styles.module.scss";
+import {useState} from "react";
 const Block = ({
   title,
   description,
@@ -9,13 +10,13 @@ const Block = ({
   onCheck = (value) => {},
   selected = false,
 }) => {
-  //const [selected, setSelected] = useState(defaultSelected);
+  // const [selected, setSelected] = useState(defaultSelected);
 
-  const handleSelected = () => {
-    //setSelected(!selected);
-    onCheck(selected);
-    onClick();
-  };
+  // const handleSelected = () => {
+  //   setSelected(prevSelected => !prevSelected);
+  //   onCheck(selected);
+  //   onClick();
+  // };
 
   return (
     <button
@@ -23,7 +24,7 @@ const Block = ({
         disabled ? styles.disabled : ""
       }`}
       type="button"
-      onClick={handleSelected}
+      onClick={onClick}
     >
       {type == "groupped" && <div className={styles.grouppedCheckbox}>✓</div>}
       <div className={styles.blockIcon}>

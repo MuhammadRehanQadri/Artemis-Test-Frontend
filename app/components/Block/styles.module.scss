@@ -82,28 +82,28 @@
     border-color: #26246f;
   }
   &.disabled {
-    // background: #f0f0f0;
-    // &:hover {
-    //   background: #fafafa;
-    //   img {
-    //     opacity: 1;
-    //   }
-    //   .blockTitle {
-    //     opacity: 1;
-    //   }
-    //   .blockDescription {
-    //     opacity: 1;
-    //   }
-    // }
-    // img {
-    //   opacity: 0.3;
-    // }
-    // .blockTitle {
-    //   opacity: 0.3;
-    // }
-    // .blockDescription {
-    //   opacity: 0.3;
-    // }
+     background: #f0f0f0;
+     &:hover {
+       background: #fafafa;
+       img {
+         opacity: 1;
+       }
+       .blockTitle {
+         opacity: 1;
+       }
+       .blockDescription {
+         opacity: 1;
+       }
+     }
+     img {
+       opacity: 0.3;
+     }
+     .blockTitle {
+       opacity: 0.3;
+     }
+     .blockDescription {
+       opacity: 0.3;
+     }
     .grouppedCheckbox {
       opacity: 0.3;
     }
